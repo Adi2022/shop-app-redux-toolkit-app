@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: lightyellow!important;
+ 
+}
+
+.card{
+    border: 2px solid;
+    margin: 2%;
+    width:50%;
+   
+
+}
+
+
+.products-container {
+    display: flex;
+    justify-content: center; /* horizontally center the cards */
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* center the image vertically */
+    margin: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* .card img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+  } */
+  
